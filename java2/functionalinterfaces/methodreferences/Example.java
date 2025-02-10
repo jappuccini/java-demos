@@ -1,4 +1,4 @@
-package demo.java2.functionalinterfaces.methodreferences;
+package java2.functionalinterfaces.methodreferences;
 
 public class Example {
     public static void main(String[] args) {

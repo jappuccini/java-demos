@@ -1,4 +1,4 @@
-package demo.java2.optional.university;
+package java2.optional.university;
 
 import java.util.Optional;
 

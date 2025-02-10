@@ -1,4 +1,4 @@
-package demo.records;
+package java2.records;
 
 public class Example {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package demo.java2.dsa.trees.bt.compare;
+package java2.dsa.trees.bt.compare;
 
-import demo.java2.dsa.trees.bt.BinaryNode;
+import java2.dsa.trees.bt.BinaryNode;
 
 public class BinaryTreeCompare {
 

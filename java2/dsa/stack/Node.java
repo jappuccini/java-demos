@@ -1,4 +1,4 @@
-package demo.java2.dsa.stack;
+package java2.dsa.stack;
 
 public class Node {
     String value;

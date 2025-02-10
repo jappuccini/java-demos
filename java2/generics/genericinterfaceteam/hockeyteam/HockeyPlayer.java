@@ -1,6 +1,6 @@
-package demo.java2.generics.genericinterfaceteam.hockeyteam;
+package java2.generics.genericinterfaceteam.hockeyteam;
 
-import demo.java2.generics.genericinterfaceteam.Player;
+import java2.generics.genericinterfaceteam.Player;
 
 public class HockeyPlayer implements Player {
     public final String name;

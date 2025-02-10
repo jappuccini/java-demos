@@ -1,4 +1,4 @@
-package demo.java2.dsa.recursion.maze;
+package java2.dsa.recursion.maze;
 
 import java.util.ArrayList;
 

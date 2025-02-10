@@ -1,4 +1,4 @@
-package demo.java2.streamapi.intro;
+package java2.streamapi.intro;
 
 import java.util.ArrayList;
 

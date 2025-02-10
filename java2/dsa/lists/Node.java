@@ -1,4 +1,4 @@
-package demo.java2.dsa.lists;
+package java2.dsa.lists;
 
 public class Node {
     public String value;

@@ -1,4 +1,4 @@
-package demo.java2.generics.specificteams.footballteam;
+package java2.generics.specificteams.footballteam;
 
 public class FootballPlayer {
     public final String name;

@@ -1,4 +1,4 @@
-package demo.java2.hashcollection.hashmap.dogowners.bug;
+package java2.hashcollection.hashmap.dogowners.bug;
 
 public class Dog {
     public final String name;

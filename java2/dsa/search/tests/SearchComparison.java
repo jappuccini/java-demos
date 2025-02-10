@@ -1,6 +1,6 @@
-package demo.java2.dsa.search.tests;
+package java2.dsa.search.tests;
 
-import demo.java2.dsa.search.DataSample;
+import java2.dsa.search.DataSample;
 
 public class SearchComparison {
 

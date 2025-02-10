@@ -1,4 +1,4 @@
-package demo.java2.optional.human;
+package java2.optional.human;
 
 public class Example {
 

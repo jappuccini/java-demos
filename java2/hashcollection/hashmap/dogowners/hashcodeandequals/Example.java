@@ -1,4 +1,4 @@
-package demo.java2.hashcollection.hashmap.dogowners.hashcodeandequals;
+package java2.hashcollection.hashmap.dogowners.hashcodeandequals;
 
 import java.util.HashMap;
 import java.util.Map.Entry;

@@ -1,6 +1,6 @@
-package demo.java2.dsa.recursion.search;
+package java2.dsa.recursion.search;
 
-import demo.java2.dsa.search.DataSample;
+import java2.dsa.search.DataSample;
 
 public class BinarySearch {
 

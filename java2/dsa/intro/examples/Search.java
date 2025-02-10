@@ -1,7 +1,7 @@
-package demo.java2.dsa.intro.examples;
+package java2.dsa.intro.examples;
 
-import demo.java2.dsa.intro.tests.ListTest;
-import demo.java2.dsa.intro.tests.MapTest;
+import java2.dsa.intro.tests.ListTest;
+import java2.dsa.intro.tests.MapTest;
 
 record Student(String name) {
 }
@@ -10,7 +10,7 @@ public class Search {
     public static void main(String[] args) {
         final int numberOfStudents = 1_000_000; // 1 Millionen
         final int numberOfSearches = 1000; // 1 Tausend Suchvorgänge
-        final int lastAddedItem = numberOfStudents - 1; 
+        final int lastAddedItem = numberOfStudents - 1;
 
         ListTest arrayList = new ListTest(numberOfStudents);
         arrayList.search(lastAddedItem, numberOfSearches);

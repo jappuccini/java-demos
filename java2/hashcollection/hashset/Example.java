@@ -1,4 +1,4 @@
-package demo.java2.hashcollection.hashset;
+package java2.hashcollection.hashset;
 
 import java.util.HashSet;
 import java.util.List;

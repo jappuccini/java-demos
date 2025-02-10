@@ -1,4 +1,4 @@
-package demo.java2.streamapi.pipeline;
+package java2.streamapi.pipeline;
 
 import java.util.ArrayList;
 import java.util.stream.Stream;

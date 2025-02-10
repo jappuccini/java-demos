@@ -1,4 +1,4 @@
-package demo.java2.dsa.sort;
+package java2.dsa.sort;
 
 public class SelectionSort {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package demo.java2.dsa.queue;
+package java2.dsa.queue;
 
 public class Queue {
     public Node head;

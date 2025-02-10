@@ -1,7 +1,7 @@
-package demo.java2.dsa.trees.bt.dfs;
+package java2.dsa.trees.bt.dfs;
 
-import demo.java2.dsa.trees.bt.BinaryNode;
-import demo.java2.dsa.trees.bt.DataSample;
+import java2.dsa.trees.bt.BinaryNode;
+import java2.dsa.trees.bt.DataSample;
 
 public class BTInOrder {
 

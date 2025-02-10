@@ -1,7 +1,7 @@
-package demo.java2.generics.genericteam;
+package java2.generics.genericteam;
 
-import demo.generics.footballteam.FootballPlayer;
-import demo.generics.hockeyteam.HockeyPlayer;
+import java2.generics.genericteam.footballteam.FootballPlayer;
+import java2.generics.genericteam.hockeyteam.HockeyPlayer;
 
 public class Example {
 

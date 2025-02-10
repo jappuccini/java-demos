@@ -1,8 +1,8 @@
-package demo.java2.functionalinterfaces.owninterfaces.interfaces;
+package java2.functionalinterfaces.owninterfaces.interfaces;
 
 import java.util.ArrayList;
 
-import demo.java2.functionalinterfaces.owninterfaces.Product;
+import java2.functionalinterfaces.owninterfaces.Product;
 
 
 @FunctionalInterface

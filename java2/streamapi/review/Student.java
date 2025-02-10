@@ -1,4 +1,4 @@
-package demo.java2.streamapi.review;
+package java2.streamapi.review;
 
 import java.util.function.Function;
 import java.util.function.Predicate;

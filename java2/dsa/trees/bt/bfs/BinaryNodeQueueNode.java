@@ -1,6 +1,6 @@
-package demo.java2.dsa.trees.bt.bfs;
+package java2.dsa.trees.bt.bfs;
 
-import demo.java2.dsa.trees.bt.BinaryNode;
+import java2.dsa.trees.bt.BinaryNode;
 
 public class BinaryNodeQueueNode {
     BinaryNode value;

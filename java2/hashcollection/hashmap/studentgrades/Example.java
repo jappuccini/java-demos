@@ -1,4 +1,4 @@
-package demo.java2.hashcollection.hashmap.studentgrades;
+package java2.hashcollection.hashmap.studentgrades;
 
 import java.util.Collection;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package demo.java2.dsa.recursion.sum;
+package java2.dsa.recursion.sum;
 
 public class Rekursiv {
 

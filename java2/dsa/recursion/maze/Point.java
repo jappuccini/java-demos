@@ -1,4 +1,4 @@
-package demo.java2.dsa.recursion.maze;
+package java2.dsa.recursion.maze;
 
 public class Point {
     public final int x;

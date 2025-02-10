@@ -1,4 +1,4 @@
-package demo.java2.hashcollection.hashmap.dogowners.bug;
+package java2.hashcollection.hashmap.dogowners.bug;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package demo.java2.optional.university;
+package java2.optional.university;
 
 public class Student {
     public final String name;

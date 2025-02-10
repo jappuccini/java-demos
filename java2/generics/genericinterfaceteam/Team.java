@@ -1,4 +1,4 @@
-package demo.java2.generics.genericinterfaceteam;
+package java2.generics.genericinterfaceteam;
 
 import java.util.ArrayList;
 

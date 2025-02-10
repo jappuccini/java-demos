@@ -1,4 +1,4 @@
-package demo.records;
+package java2.records;
 
 import java.util.Objects;
 

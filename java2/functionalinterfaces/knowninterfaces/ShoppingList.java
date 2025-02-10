@@ -1,4 +1,4 @@
-package demo.java2.functionalinterfaces.knowninterfaces;
+package java2.functionalinterfaces.knowninterfaces;
 
 import java.util.ArrayList;
 import java.util.function.BiPredicate;

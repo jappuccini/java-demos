@@ -1,4 +1,4 @@
-package demo.java2.dsa.trees.heap;
+package java2.dsa.trees.heap;
 
 import java.util.ArrayList;
 

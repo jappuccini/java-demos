@@ -1,6 +1,6 @@
-package demo.java2.dsa.search.examples;
+package java2.dsa.search.examples;
 
-import demo.java2.dsa.search.DataSample;
+import java2.dsa.search.DataSample;
 
 public class LinearSearch {
 

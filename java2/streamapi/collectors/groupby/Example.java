@@ -1,4 +1,4 @@
-package demo.java2.streamapi.collectors.groupby;
+package java2.streamapi.collectors.groupby;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,9 +1,9 @@
-package demo.java2.functionalinterfaces.owninterfaces;
+package java2.functionalinterfaces.owninterfaces;
 
 import java.util.ArrayList;
 
-import demo.java2.functionalinterfaces.owninterfaces.interfaces.AddAllowedChecker;
-import demo.java2.functionalinterfaces.owninterfaces.interfaces.ProductsChangedConsumer;
+import java2.functionalinterfaces.owninterfaces.interfaces.AddAllowedChecker;
+import java2.functionalinterfaces.owninterfaces.interfaces.ProductsChangedConsumer;
 
 
 public class ShoppingList {

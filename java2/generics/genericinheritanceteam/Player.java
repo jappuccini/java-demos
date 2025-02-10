@@ -1,4 +1,4 @@
-package demo.java2.generics.genericinheritanceteam;
+package java2.generics.genericinheritanceteam;
 
 public class Player {
     public final String name;

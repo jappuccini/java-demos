@@ -1,4 +1,4 @@
-package demo.java2.hashcollection.hashmap.dogowners.records;
+package java2.hashcollection.hashmap.dogowners.records;
 
 import java.util.Objects;
 

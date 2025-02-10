@@ -1,4 +1,4 @@
-package demo.java2.dsa.search;
+package java2.dsa.search;
 
 import java.util.stream.IntStream;
 

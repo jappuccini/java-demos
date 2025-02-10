@@ -1,6 +1,6 @@
-package demo.java2.dsa.search.tests;
+package java2.dsa.search.tests;
 
-import demo.java2.dsa.search.examples.BinarySearch;
+import java2.dsa.search.examples.BinarySearch;
 
 public class BinarySearchTest {
     private long start;

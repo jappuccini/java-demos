@@ -1,4 +1,4 @@
-package demo.java2.dsa.trees.bt;
+package java2.dsa.trees.bt;
 
 public class BinaryNode {
 

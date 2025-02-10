@@ -1,4 +1,4 @@
-package demo.java2.generics.genericinheritanceteam;
+package java2.generics.genericinheritanceteam;
 
 import java.util.ArrayList;
 

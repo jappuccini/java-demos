@@ -1,4 +1,4 @@
-package demo.java2.dsa.queue;
+package java2.dsa.queue;
 
 public class Node {
     String value;

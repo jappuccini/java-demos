@@ -1,4 +1,4 @@
-package demo.java2.optional.university;
+package java2.optional.university;
 
 import java.util.ArrayList;
 import java.util.Optional;

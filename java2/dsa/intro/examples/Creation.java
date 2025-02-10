@@ -1,7 +1,7 @@
-package demo.java2.dsa.intro.examples;
+package java2.dsa.intro.examples;
 
-import demo.java2.dsa.intro.tests.ListTest;
-import demo.java2.dsa.intro.tests.MapTest;
+import java2.dsa.intro.tests.ListTest;
+import java2.dsa.intro.tests.MapTest;
 
 public class Creation {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package demo.java2.functionalprogramming;
+package java2.functionalprogramming;
 
 import java.util.ArrayList;
 import java.util.Collections;
