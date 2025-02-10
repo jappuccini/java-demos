@@ -1,17 +1,17 @@
 package java1.inheritance;
 
 public class Animal {
-    private String name;
+  private String name;
 
-    Animal(String name) {
-        this.name = name;
-    }
+  Animal(String name) {
+    this.name = name;
+  }
 
-    public String getName() {
-        return this.name;
-    }
+  public String getName() {
+    return this.name;
+  }
 
-    protected void setName(String name) {
-        this.name = name;
-    }
+  protected void setName(String name) {
+    this.name = name;
+  }
 }

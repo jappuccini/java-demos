@@ -1,5 +1,3 @@
 package java1.interfaces.human;
 
-public class Human {
-    
-}
+public class Human {}

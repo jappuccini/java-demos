@@ -4,5 +4,5 @@ import java.util.ArrayList;
 
 @FunctionalInterface
 public interface ItemChanges {
-    public void itemChanges(ArrayList<ShoppingListItem> items, int count);
+  public void itemChanges(ArrayList<ShoppingListItem> items, int count);
 }

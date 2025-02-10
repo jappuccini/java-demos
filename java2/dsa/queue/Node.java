@@ -1,11 +1,10 @@
 package java2.dsa.queue;
 
 public class Node {
-    String value;
-    Node next;
+  String value;
+  Node next;
 
-    public Node(String value) {
-        this.value = value;
-    }
-
+  public Node(String value) {
+    this.value = value;
+  }
 }

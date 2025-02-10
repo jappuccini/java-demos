@@ -2,10 +2,9 @@ package demo.lambdas.interfaces;
 
 public interface ShoppingListItem {
 
-    public void setShoppingListId(int shoppingListId);
+  public void setShoppingListId(int shoppingListId);
 
-    public int getShoppingListId();
+  public int getShoppingListId();
 
-    public String getDescription();
-
+  public String getDescription();
 }

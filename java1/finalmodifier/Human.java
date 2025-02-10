@@ -2,10 +2,10 @@ package java1.finalmodifier;
 
 public class Human {
 
-    public final String firstName;
-    public String lastName;
+  public final String firstName;
+  public String lastName;
 
-    public Human(String firstName) {
-        this.firstName = firstName;
-    }
+  public Human(String firstName) {
+    this.firstName = firstName;
+  }
 }

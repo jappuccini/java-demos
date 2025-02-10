@@ -1,5 +1,3 @@
 package java2.streamapi.collectors.tomap;
 
-public record Car(String brand, String model, int horsePower) {
-
-}
+public record Car(String brand, String model, int horsePower) {}

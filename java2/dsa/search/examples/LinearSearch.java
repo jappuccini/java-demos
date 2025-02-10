@@ -4,20 +4,20 @@ import java2.dsa.search.DataSample;
 
 public class LinearSearch {
 
-    public static void main(String[] args) {
-        int target = 90;
+  public static void main(String[] args) {
+    int target = 90;
 
-        int[] searchRoom = DataSample.getUnsortedNumbers();
+    int[] searchRoom = DataSample.getUnsortedNumbers();
 
-        System.out.println(LinearSearch.search(target, searchRoom));
+    System.out.println(LinearSearch.search(target, searchRoom));
+  }
+
+  public static int search(int target, int[] searchRoom) {
+    for (int i = 0; i < searchRoom.length; i++) {
+      if (searchRoom[i] == target) {
+        return i;
+      }
     }
-
-    public static int search(int target, int[] searchRoom) {
-        for (int i = 0; i < searchRoom.length; i++) {
-            if (searchRoom[i] == target) {
-                return i;
-            }
-        }
-        return -1;
-    }
+    return -1;
+  }
 }

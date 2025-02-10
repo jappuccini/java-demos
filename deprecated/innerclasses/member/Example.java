@@ -1,18 +1,17 @@
 package demo.innerclasses.member;
 
+import demo.innerclasses.Helper;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import demo.innerclasses.Helper;
-
 public class Example {
-    public static void main(String[] args) {
-        ArrayList<Integer> numbers = Helper.getExampleNumbers();
-        Helper.printNumbers(numbers);
+  public static void main(String[] args) {
+    ArrayList<Integer> numbers = Helper.getExampleNumbers();
+    Helper.printNumbers(numbers);
 
-        Member member = new Member();
+    Member member = new Member();
 
-        Collections.sort(numbers, member.new NumberAscComparator());
-        Helper.printNumbers(numbers);
-    }
+    Collections.sort(numbers, member.new NumberAscComparator());
+    Helper.printNumbers(numbers);
+  }
 }

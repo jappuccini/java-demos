@@ -3,21 +3,20 @@ package java2.dsa.intro.examples;
 import java2.dsa.intro.tests.ListTest;
 import java2.dsa.intro.tests.MapTest;
 
-record Student(String name) {
-}
+record Student(String name) {}
 
 public class Search {
-    public static void main(String[] args) {
-        final int numberOfStudents = 1_000_000; // 1 Millionen
-        final int numberOfSearches = 1000; // 1 Tausend Suchvorgänge
-        final int lastAddedItem = numberOfStudents - 1;
+  public static void main(String[] args) {
+    final int numberOfStudents = 1_000_000; // 1 Millionen
+    final int numberOfSearches = 1000; // 1 Tausend Suchvorgänge
+    final int lastAddedItem = numberOfStudents - 1;
 
-        ListTest arrayList = new ListTest(numberOfStudents);
-        arrayList.search(lastAddedItem, numberOfSearches);
-        arrayList.printSearchDuration();
+    ListTest arrayList = new ListTest(numberOfStudents);
+    arrayList.search(lastAddedItem, numberOfSearches);
+    arrayList.printSearchDuration();
 
-        MapTest hashMapTest = new MapTest(numberOfStudents);
-        hashMapTest.search(lastAddedItem, numberOfSearches);
-        hashMapTest.printSearchDuration();
-    }
+    MapTest hashMapTest = new MapTest(numberOfStudents);
+    hashMapTest.search(lastAddedItem, numberOfSearches);
+    hashMapTest.printSearchDuration();
+  }
 }

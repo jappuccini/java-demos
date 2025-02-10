@@ -5,17 +5,16 @@ import java2.generics.genericteam.hockeyteam.HockeyPlayer;
 
 public class Example {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        Team<HockeyPlayer> wildWings = new Team<>("Wild Wings");
-        wildWings.addPlayer(new HockeyPlayer("Mirco"));
-        wildWings.printTeamName();
-        wildWings.printPlayerNames();
+    Team<HockeyPlayer> wildWings = new Team<>("Wild Wings");
+    wildWings.addPlayer(new HockeyPlayer("Mirco"));
+    wildWings.printTeamName();
+    wildWings.printPlayerNames();
 
-        Team<FootballPlayer> scFreiburg = new Team<>("SC Freiburg");
-        scFreiburg.addPlayer(new FootballPlayer("Steffen"));
-        scFreiburg.printTeamName();
-        scFreiburg.printPlayerNames();
-
-    }
+    Team<FootballPlayer> scFreiburg = new Team<>("SC Freiburg");
+    scFreiburg.addPlayer(new FootballPlayer("Steffen"));
+    scFreiburg.printTeamName();
+    scFreiburg.printPlayerNames();
+  }
 }

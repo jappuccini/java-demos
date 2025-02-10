@@ -4,23 +4,23 @@ import java2.dsa.intro.tests.ListTest;
 import java2.dsa.intro.tests.MapTest;
 
 public class Deletion {
-    public static void main(String[] args) {
-        final int numberOfStudents = 10_000_000;
-        final int deleteFirstNStudents = 1000;
+  public static void main(String[] args) {
+    final int numberOfStudents = 10_000_000;
+    final int deleteFirstNStudents = 1000;
 
-        ListTest arrayTest = new ListTest(numberOfStudents);
-        arrayTest.delete(deleteFirstNStudents);
-        arrayTest.printDeletionDuration();
-        arrayTest.printCreationDuration();
+    ListTest arrayTest = new ListTest(numberOfStudents);
+    arrayTest.delete(deleteFirstNStudents);
+    arrayTest.printDeletionDuration();
+    arrayTest.printCreationDuration();
 
-        ListTest linkedTest = new ListTest(numberOfStudents, true);
-        linkedTest.delete(deleteFirstNStudents);
-        linkedTest.printDeletionDuration();
-        linkedTest.printCreationDuration();
+    ListTest linkedTest = new ListTest(numberOfStudents, true);
+    linkedTest.delete(deleteFirstNStudents);
+    linkedTest.printDeletionDuration();
+    linkedTest.printCreationDuration();
 
-        MapTest hashMapTest = new MapTest(numberOfStudents);
-        hashMapTest.delete(deleteFirstNStudents);
-        hashMapTest.printDeletionDuration();
-        hashMapTest.printCreationDuration();
-    }
+    MapTest hashMapTest = new MapTest(numberOfStudents);
+    hashMapTest.delete(deleteFirstNStudents);
+    hashMapTest.printDeletionDuration();
+    hashMapTest.printCreationDuration();
+  }
 }

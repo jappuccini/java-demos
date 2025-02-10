@@ -7,16 +7,16 @@ import java2.generics.specificteams.hockeyteam.HockeyTeam;
 
 public class Example {
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        HockeyTeam wildWings = new HockeyTeam("Wild Wings");
-        wildWings.addPlayer(new HockeyPlayer("Mirco"));
-        wildWings.printTeamName();
-        wildWings.printPlayerNames();
+    HockeyTeam wildWings = new HockeyTeam("Wild Wings");
+    wildWings.addPlayer(new HockeyPlayer("Mirco"));
+    wildWings.printTeamName();
+    wildWings.printPlayerNames();
 
-        FootballTeam scFreiburg = new FootballTeam("Sc Freiburg");
-        scFreiburg.addPlayer(new FootballPlayer("Steffen"));
-        scFreiburg.printTeamName();
-        scFreiburg.printPlayerNames();
-    }
+    FootballTeam scFreiburg = new FootballTeam("Sc Freiburg");
+    scFreiburg.addPlayer(new FootballPlayer("Steffen"));
+    scFreiburg.printTeamName();
+    scFreiburg.printPlayerNames();
+  }
 }
