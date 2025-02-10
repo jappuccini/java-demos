@@ -2,7 +2,8 @@ package demo.finalmodifier;
 
 public class Human {
 
-    public  final static  String firstName; 
+    public final String firstName;
+    public String lastName;
 
     public Human(String firstName) {
         this.firstName = firstName;
