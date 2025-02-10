@@ -1,4 +1,4 @@
-package demo.exceptions;
+package java1.exceptions;
 
 public class PasswordChecker {
     public static void checkPassword(String password) throws PasswordTooShortException, PasswordTooLongException {

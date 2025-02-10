@@ -1,4 +1,4 @@
-package demo.classes.car;
+package java1.classes.car;
 
 public class Exercise {
 

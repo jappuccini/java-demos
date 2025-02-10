@@ -1,4 +1,4 @@
-package demo.dataobjects;
+package java1.dataobjects;
 
 public class Example {
     public static void main(String[] args) {

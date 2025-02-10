@@ -1,4 +1,4 @@
-package demo.polymorphy;
+package java1.polymorphy;
 
 public class Animal {
 

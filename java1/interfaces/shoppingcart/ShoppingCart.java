@@ -1,4 +1,4 @@
-package demo.interfaces.shoppingcart;
+package java1.interfaces.shoppingcart;
 
 import java.util.ArrayList;
 

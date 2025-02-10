@@ -1,4 +1,4 @@
-package demo.finalmodifier;
+package java1.finalmodifier;
 
 public class Human {
 

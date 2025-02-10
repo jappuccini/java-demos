@@ -1,4 +1,4 @@
-package demo.inheritance;
+package java1.inheritance;
 
 public class Animal {
     private String name;

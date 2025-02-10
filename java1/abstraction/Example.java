@@ -1,4 +1,4 @@
-package demo.abstraction;
+package java1.abstraction;
 
 public class Example {
     public static void main(String[] args) {

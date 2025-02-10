@@ -1,4 +1,4 @@
-package demo.classes.modifier;
+package java1.classes.modifier;
 
 public class Exercise {
     

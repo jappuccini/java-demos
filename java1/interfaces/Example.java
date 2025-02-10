@@ -1,9 +1,9 @@
-package demo.interfaces;
+package java1.interfaces;
 
-import demo.interfaces.animal.Dog;
-import demo.interfaces.animal.Cat;
-import demo.interfaces.shoppingcart.ShoppingCart;
-import demo.interfaces.todolist.TodoList;
+import java1.interfaces.animal.Dog;
+import java1.interfaces.animal.Cat;
+import java1.interfaces.shoppingcart.ShoppingCart;
+import java1.interfaces.todolist.TodoList;
 
 public class Example {
     public static void main(String[] args) {

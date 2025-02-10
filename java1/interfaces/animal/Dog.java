@@ -1,7 +1,7 @@
-package demo.interfaces.animal;
+package java1.interfaces.animal;
 
-import demo.interfaces.shoppingcart.Item;
-import demo.interfaces.todolist.TodoItem;
+import java1.interfaces.shoppingcart.Item;
+import java1.interfaces.todolist.TodoItem;
 
 public class Dog  extends Animal implements Item, TodoItem {
 

@@ -1,4 +1,4 @@
-package demo.enums;
+package java1.enums;
 
 public class Human {
     public Gender gender;

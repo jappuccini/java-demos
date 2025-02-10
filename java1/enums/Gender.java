@@ -1,4 +1,4 @@
-package demo.enums;
+package java1.enums;
 
 public enum Gender {
     FEMALE('F', "Female"),

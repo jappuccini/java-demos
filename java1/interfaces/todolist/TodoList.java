@@ -1,4 +1,4 @@
-package demo.interfaces.todolist;
+package java1.interfaces.todolist;
 
 import java.util.ArrayList;
 

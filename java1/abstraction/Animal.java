@@ -1,4 +1,4 @@
-package demo.abstraction;
+package java1.abstraction;
 
 public abstract class Animal { // Es kann kein Objekt von dieser Klasser erstellt werden
 

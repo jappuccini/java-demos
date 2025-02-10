@@ -1,4 +1,4 @@
-package demo.classes.staticmodifier;
+package java1.classes.staticmodifier;
 
 public class Exercise {
 

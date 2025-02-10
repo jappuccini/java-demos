@@ -1,4 +1,4 @@
-package demo.comparator;
+package java1.comparator;
 
 public class Human implements Comparable<Human> {
     private String name;

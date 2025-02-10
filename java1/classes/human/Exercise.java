@@ -1,4 +1,4 @@
-package demo.classes.human;
+package java1.classes.human;
 
 public class Exercise {
 

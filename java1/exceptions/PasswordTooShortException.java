@@ -1,4 +1,4 @@
-package demo.exceptions;
+package java1.exceptions;
 
 public class PasswordTooShortException extends Exception {
     public final int tooShortBy;

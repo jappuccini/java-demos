@@ -1,4 +1,4 @@
-package demo.controlflow;
+package java1.controlflow;
 
 public class If {
     public static void main(String[] args) {

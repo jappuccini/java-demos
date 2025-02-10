@@ -1,4 +1,4 @@
-package demo.classes.contructor;
+package java1.classes.contructor;
 
 public class Human {
 

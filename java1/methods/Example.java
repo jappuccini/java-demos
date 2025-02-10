@@ -1,4 +1,4 @@
-package demo.methods;
+package java1.methods;
 
 public class Example {
 
