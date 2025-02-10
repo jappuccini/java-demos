@@ -20,7 +20,7 @@ public class Team<T> {
 
     public void printPlayerNames() {
         for (T player : players) {
-            System.out.println(player.name) // Problem
+            System.out.println(player.name); // Problem
         }
     }
 
