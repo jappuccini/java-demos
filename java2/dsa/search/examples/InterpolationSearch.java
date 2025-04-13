@@ -5,8 +5,8 @@ import java2.dsa.search.DataSample;
 public class InterpolationSearch {
 
   public static void main(String[] args) {
-    int target = 10_000_000;
-    int[] searchRoom = DataSample.getSortedNumbersFromOneTill(100_000);
+    int target = 10;
+    int[] searchRoom = DataSample.getSortedNumbersFromOneTill(100);
     System.out.println(InterpolationSearch.search(target, searchRoom));
   }
 
@@ -17,7 +17,7 @@ public class InterpolationSearch {
       // InterpolationSearch.showSearchStatus(low, high, searchRoom);
       int lowValue = searchRoom[low];
       int highValue = searchRoom[high];
-      int middleIndex = low + ((target - lowValue) / (highValue - lowValue)) * (high - low);
+      int middleIndex = low + (high - low) * (target - lowValue) / (highValue - lowValue);
       int middleValue = searchRoom[middleIndex];
       if (middleValue == target) {
         return middleIndex;
