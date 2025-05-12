@@ -8,7 +8,7 @@ public class BstInsert {
   public static void insert(BinaryNode parent, BinaryNode node, int value) {
     if (node == null) {
       BinaryNode newNode = new BinaryNode(value);
-      if (value < parent.value) {
+      if (value <= parent.value) {
         parent.left = newNode;
       } else {
         parent.right = newNode;
@@ -30,6 +30,7 @@ public class BstInsert {
   public static void main(String[] args) {
     BinaryNode bst = DataSample.getExampleBinarySearchTree();
     BstInsert.add(bst, 17);
+    BstInsert.add(bst, 18);
     BstInsert.add(bst, 18);
     BstInsert.add(bst, 100);
     BstInsert.add(bst, 28);
