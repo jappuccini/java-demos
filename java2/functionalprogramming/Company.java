@@ -44,13 +44,15 @@ public class Company {
           }
         });
     // // Lambda Funktion - Kurze Syntax
-    Collections.sort(employees, (Human h1, Human h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0);
+    Collections.sort(
+        employees, (Human h1, Human h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0);
 
     // // Lambda Funktion - Kurze Syntax ohne explizite Datentypen
     Collections.sort(employees, (h1, h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0);
 
     // // Lambda Funktion - Als Referenzvariable gespeichert
-    Comparator<Human> ageSorter = (h1, h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0;
+    Comparator<Human> ageSorter =
+        (h1, h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0;
     Collections.sort(employees, ageSorter);
   }
 }
