@@ -6,13 +6,10 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Company {
-  private List<Human> employees;
+  public final List<Human> employees;
 
   public Company() {
-    this.employees = new ArrayList<>();
-    this.employees.add(new Human(80));
-    this.employees.add(new Human(10));
-    this.employees.add(new Human(65));
+    this.employees = new ArrayList<>(List.of(new Human(80), new Human(10), new Human(65)));
   }
 
   public void sortByAgeDescending() {
@@ -24,32 +21,36 @@ public class Company {
         employees,
         new Comparator<Human>() {
           public int compare(Human h1, Human h2) {
-            if (h1.age() > h1.age()) {
+            if (h1.age() < h2.age()) {
+              return -1;
+            } else if (h1.age() > h2.age()) {
               return 1;
             } else {
-              return -1;
+              return 0;
             }
           }
         });
 
-    // Lambda Funktion - Lange Syntax
+    // // Lambda Funktion - Lange Syntax
     Collections.sort(
         employees,
         (Human h1, Human h2) -> {
-          if (h1.age() > h1.age()) {
+          if (h1.age() < h2.age()) {
+            return -1;
+          } else if (h1.age() > h2.age()) {
             return 1;
           } else {
-            return -1;
+            return 0;
           }
         });
-    // Lambda Funktion - Kurze Syntax
-    Collections.sort(employees, (Human h1, Human h2) -> h1.age() > h1.age() ? 1 : -1);
+    // // Lambda Funktion - Kurze Syntax
+    Collections.sort(employees, (Human h1, Human h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0);
 
-    // Lambda Funktion - Kurze Syntax ohne explizite Datentypen
-    Collections.sort(employees, (h1, h2) -> h1.age() > h1.age() ? 1 : -1);
+    // // Lambda Funktion - Kurze Syntax ohne explizite Datentypen
+    Collections.sort(employees, (h1, h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0);
 
-    // Lambda Funktion - Als Referenzvariable gespeichert
-    Comparator<Human> ageSorter = (h1, h2) -> h1.age() > h1.age() ? 1 : -1;
+    // // Lambda Funktion - Als Referenzvariable gespeichert
+    Comparator<Human> ageSorter = (h1, h2) -> h1.age() < h2.age() ? -1 : h1.age() > h2.age() ? 1 : 0;
     Collections.sort(employees, ageSorter);
   }
 }
