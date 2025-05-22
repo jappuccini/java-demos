@@ -12,7 +12,7 @@ public class Company {
     this.employees = new ArrayList<>(List.of(new Human(80), new Human(10), new Human(65)));
   }
 
-  public void sortByAgeDescending() {
+  public void sortByAgeAscending() {
     // Klasse
     Collections.sort(employees, new AgeComparator());
 
