@@ -98,7 +98,7 @@ public class DoublyLinkedList {
   }
 
   public void removeAt(int index) {
-    if (index > length) {
+    if (index >= length) {
       throw new IllegalArgumentException();
     }
     length--;
@@ -119,7 +119,7 @@ public class DoublyLinkedList {
   }
 
   public String get(int index) {
-    if (index > length) {
+    if (index >= length) {
       throw new IllegalArgumentException();
     }
     Node currentNode = this.head;
