@@ -79,11 +79,12 @@ public class BstDelete {
          * small side.
          */
         BinaryNode largest = BstDelete.findLargest(node, node.left);
-        if (parent == null) { // In case we need to delte the root node
+        if (parent == null) { // In case we need to delete the root node
           largest.left = node.left;
           largest.right = node.right;
           node.left = null;
           node.right = null;
+          // check root node delete where largest has multiple childs
         } else {
           if (parent.left == node) {
             parent.left = largest;

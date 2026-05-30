@@ -15,7 +15,7 @@ public class BstSearch {
     if (value > node.value) {
       return find(node.right, value);
     }
-    if (value < node.value) {
+    if (value <= node.value) {
       return find(node.left, value);
     }
     // Not Possible
