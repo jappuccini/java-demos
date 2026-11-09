@@ -5,6 +5,6 @@ public class Human {
   String lastName;
 
   public String getFullName() {
-    return firstName + lastName;
+    return firstName + " " + lastName;
   }
 }

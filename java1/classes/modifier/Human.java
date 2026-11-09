@@ -6,7 +6,7 @@ public class Human {
   private int age;
 
   public String getFullName() {
-    return firstName + lastName;
+    return firstName + " " + lastName;
   }
 
   public void setAge(int age) {
